@@ -1,0 +1,98 @@
+/* BEGIN RESET CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header,hgroup, menu, nav, section, menu,
+time, mark, audio, video, button {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;}
+article,aside,figure,footer,header,hgroup,nav,section{display:block}
+html{height:100%;font-size:62.5%;background-color:#eee;}
+body{font:1.4rem "����",sans-serif;color:#666;}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:''}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:0 0;text-decoration:none;color:#666}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help}
+/* tables still need cellspacing="0" in the markup */
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}
+li,ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+abbr,acronym{border:0}
+select{padding:.1rem;margin-right:.2rem;border-radius:2px}
+/* 防止点击闪烁 */ 
+/* 兼容iphone 6 */
+@media(device-width:375px) and (-webkit-min-device-pixel-ratio:2){html{font-size:62.5%}
+}
+a,button,img,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0)}
+input,textarea{-webkit-appearance:none;font:1.4rem "黑体",sans-serif;}
+
+
+input::-ms-clear{display:none;}
+img:hover{opacity: 0.9;}
+
+/*functon*/
+.f-fl{float: left;}
+.f-fr{float: right;}
+.f-tc{text-align: center;}
+.bg-white{background-color: #fff;}
+/*icon*/
+.ico-back{position:absolute;left:1rem;top:1rem;width: 1rem;height: 1.8rem;background-image: url('../img/in_icon.png?__inline');background-size: 100%;background-repeat: no-repeat;-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+/*module*/
+/*tips*/
+.m-tip-bubble{position:absolute;left:0;top:0;z-index:999;min-width:100px;max-width:500px;border:1px solid #ccc;background-color:#fff;padding:10px;border-radius: 5px;}
+.m-tip-bubble .ico-sj,.m-tip-bubble .ico-sj-wrap{position:absolute;left:20px;top:-16px;width:0;height:0;display:inline-block;overflow:hidden;border:8px solid;border-color: transparent transparent #fff transparent;z-index: 9;}
+.m-tip-bubble .ico-sj-wrap{border:9px solid;border-color: transparent transparent #ccc transparent;left:19px;top:-18px;z-index: 0;}
+/*loading*/
+.u-loading{width:100px;height:100px;background:url('../img/loading.gif') no-repeat center center #fff;margin: 200px auto 0;border-radius:8px;}
+/*noresult*/
+.m-noresults{min-height: 50px;padding-top: 20px;}
+.m-noresults .content {
+    color: #888;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.m-noresults .content {
+    color: #888;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+/*btns*/
+.btn{position: relative;display: block;margin:0 1rem;padding-left: 14px;padding-right: 14px;box-sizing: border-box;font-size: 18px;text-align: center;text-decoration: none;color: #FFFFFF;line-height: 2.33333333;border-radius: 5px;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);overflow: hidden;}
+.btn-primary{background-color: #04BE02;}
+.btn-primary:active:not(.btn-disabled) {
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #039702;
+}
+.btn-default {
+    background-color: #F7F7F7;
+    color: #454545;
+}
+.btn-disabled {
+    background-color: #F7F7F7;
+    color: #C9C9C9;
+}
+/*header*/
+.m-header{display:none;height: 4rem;line-height: 4rem;border-bottom: 1px solid #ddd;background-color:#fff;text-align: center;}
+.m-header h1{font-size: 1.6rem;}
+
+
+
+
+
